@@ -10,7 +10,7 @@ env:
   APP_URL: https://distilbert-sentiment-raju.onrender.com             
   
   # Render API endpoint for the deploys of our service (srv-... = service ID)
-  DEPLOYS_API: https://api.render.com/v1/services/srv-dan9vpbm8hqs73ajqok0/deploys
+  DEPLOYS_API: https://api.render.com/v1/services/srv-dat2alvpn0mc73ak3trg/deploys
 
 jobs:
   # JOB 1 (CI): run the image and make a real prediction
