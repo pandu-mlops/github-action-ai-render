@@ -6,7 +6,7 @@ on:
   workflow_dispatch:        # adds a "Run workflow" button in the Actions tab
 
 env:
-  IMAGE: docker.io/03sarath/distilbert-sentiment:slim-v2
+  IMAGE: docker.io/03sarath/distilbert-sentiment:slim-v1
   APP_URL: https://distilbert-sentiment-raju.onrender.com             
   
   # Render API endpoint for the deploys of our service (srv-... = service ID)
